@@ -1,0 +1,74 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+ 
+
+   } 
+    header {
+                /* width: 100vw; */
+                margin-left: calc(50% - 50vw);
+                background: url('Assets/Hero-bg.png') center/cover no-repeat;
+                padding: 40px 0 120px 0;
+                position: relative;
+                min-height: 350px;
+                box-sizing: border-box;
+            }
+            .header-content {
+                max-width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                position: relative;
+                z-index: 2;
+            }
+            .logo img {
+                width: 150px;
+                height: auto;   
+            }
+            .signup-btn {
+                background: #5a5aff;
+                color: #fff;
+                border: none;
+                border-radius: 8px;
+                padding: 12px 28px;
+                font-size: 1rem;
+                font-weight: 500;
+                cursor: pointer;
+                margin-top: 10px;
+                transition: background 0.2s;
+            }
+            .signup-btn:hover {
+                background: #3a3ad6;
+            }
+            .header-title {
+                text-align: center;
+                margin-top: 80px;
+                color: #222;
+                font-size: 2.8rem;
+                font-weight: 700;
+                line-height: 1.2;
+                letter-spacing: -1px;
+                text-shadow: 0 2px 8px rgba(255,255,255,0.2);
+            }
+            .header-sub-btn {
+                display: flex;
+                justify-content: center;
+                margin-top: 32px;
+            }
+            .focus-btn {
+                background: #5a5aff;
+                color: #fff;
+                border: none;
+                border-radius: 8px;
+                padding: 14px 36px;
+                font-size: 1rem;
+                font-weight: 500;
+                cursor: pointer;
+                transition: background 0.2s;
+            }
+            .focus-btn:hover {
+                background: #3a3ad6;
+            }
