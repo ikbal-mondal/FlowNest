@@ -30,6 +30,7 @@ header {
 .logo img {
     width: 150px;
     height: auto;
+   border-radius: 40%;
 }
 
 .signup-btn {
@@ -82,7 +83,11 @@ header {
 }
 
 .focus-btn:hover {
-    background: #3a3ad6;
+   
+    background: #3838eb;
+    font-size: 18px;
+    transition: .3s;
+     padding: 15px 38px;
 }
 
 /*  */
@@ -124,7 +129,12 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
+.launch-btn:hover {
+   background: #3838eb;
+    font-size: 17px;
+    transition: .3s;
+     padding: 12px 13px;
+}
 
 .image-content img {
     max-width: 100%;
@@ -180,7 +190,6 @@ header {
 .testimonial-section {
     padding: 60px 20px;
     background-color: #f4f6ff;
-    /* Optional: background-image: url('https://via.placeholder.com/1000x400'); */
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -216,7 +225,6 @@ header {
 
 .star-rating {
     color: #facc15;
-    /* Yellow tone */
     margin-bottom: 10px;
 }
 
@@ -293,6 +301,14 @@ header {
     display: inline-block;
 }
 
+.cta-button:hover {
+    background: #3838eb;
+    font-size: 17px;
+    transition: .3s;
+     padding: 13px 24px;
+}
+
+
 .focus-image {
     max-width: 100%;
     height: auto;
@@ -366,7 +382,10 @@ header {
 }
 
 .contact-form button:hover {
-    background-color: #4338ca;
+     background: #3838eb;
+    font-size: 15px;
+    transition: .2s;
+     padding: 13px ;
 }
 
 /*  footer style  */
